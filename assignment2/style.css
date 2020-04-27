@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+    font-size: 10px;
+    color: #6b5acd;
+}
+#form{
+    background-color:#6b5acd;
+    width: 700px;
+    margin-left: 23%;
+    margin-top: 10px;
+    height: 110vh;
+    border: 1px solid black;
+    color: white;
+    font-size: 15px;
+}
+form{
+    float: left;
+}
+table{
+    border-spacing: 10px;
+}
+input, td,textarea{
+    text-align: left;
+}
+input[type="radio"], input[type="checkbox"]{
+    margin-right:20px;
+}
+#submit {
+    text-align: center;
+}
+#submit input {
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+}
+#padding{
+    padding: 3px;
+}

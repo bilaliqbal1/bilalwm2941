@@ -1,0 +1,71 @@
+*{
+    margin:0px;
+    padding : 0px;
+    text-align: center;
+    font-family:serif;
+}
+div.heading{
+    width:  880px;
+    height: 70px;
+    background-color:	#fff95d;
+    padding-bottom: 20px;
+}
+table{
+    border-style: none; 
+    display:block;
+}
+
+/* table.table{
+    
+} */
+td{
+    width: 46px;
+    height: 40px;
+    font-weight: bold;
+}
+td.stype1{
+    border-style: none;
+}
+td.stype2{
+    border-style:none;
+}
+td.stype3{
+    border-style: none;
+}
+td.ctype1{
+    background-color: #fe9969;
+}
+td.ctype2{
+    background-color: #fff190;
+}
+td.ctype3{
+    background-color: #d7a2df;
+}
+td.ctype4{
+    background-color: #90c7ff;
+}
+td.ctype5{
+    background-color: #ca9a07;
+}
+
+td.ctype6{
+    background-color: #F3E5AB;
+}
+td.ctype7{
+    background-color: #cdeb86;
+}
+td.ctype8{
+    background-color: #CFECEC;
+}
+td.ctype9{
+    background-color: #F5EEE7;
+}
+td#ctype1{
+    color: green;
+}
+td#ctype2{
+    color: blue;
+}
+td#ctype3{
+    color: #d98f83;
+}
