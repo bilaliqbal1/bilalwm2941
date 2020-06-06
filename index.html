@@ -6,32 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Projects</title>
     <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
 </head>
 
 <body >
-    <div id="left"></div>
-    <div id="right"></div>
-    <div id="top"></div>
-    <div id="bottom"></div>
+    
+    
     <header>
-        <nav>
-            <a class="site-logo transition-link" href="/">
-                <span class="logo-text">BILAL IQBAL</span>
-            </a>
-            <ul class="nav-right">
-                <li class="list-item"><a class="transition-link" href="#">Home</a></li>
-                <li class="list-item"><a class="transition-link" href="#">Blog</a></li>
-                <li class="list-item"><a class="transition-link" href="#">Projects</a></li>
-            </ul>
-        </nav>
+	
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div id="left"></div>
+			<div id="right"></div>
+			<div id="top"></div>
+			<div id="bottom"></div>
+				<a  class="site-logo transition-link" href="#">
+				<span class="logo-text">BILAL IQBAL</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<ul class="nav-right">
+					<li class="list-item"><a class="transition-link" href="#">Home</a></li>
+					<li class="list-item"><a class="transition-link" href="#">Blog</a></li>
+					<li class="list-item"><a class="transition-link" href="#">Projects</a></li>
+				</ul>
+			  </div>
+	</nav>
+		
     </header>
-    <div class="projects">
-        <h2>Assignments are given below.</h2>
-        <button id="1"> <a href="assignment1/index.html" target="_blank"> Assignment One</a></button>
-        <button id="2"> <a href="assignment2/index.html" target="_blank"> Assignment Two</a></button>
-        <button id="3"> <a href="assignment3/index.html" target="_blank"> Assignment Three</a></button>
-    </div>
-
+	
+	<div class="container">
+		<div class="row">
+				<div class="projects">
+					<h2>Assignments are given below.</h2>
+					<button id="1"> <a href="assignment1/index.html" target="_blank"> Assignment One</a></button>
+					<button id="2"> <a href="assignment2/index.html" target="_blank"> Assignment Two</a></button>
+					<button id="3"> <a href="assignment3/index.html" target="_blank"> Assignment Three</a></button>
+					<button id="3"> <a href="assignment4/index.html" target="_blank"> Assignment Four</a></button>
+    			</div>
+		</div>
+	</div>
+	
+	    
+					
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>              
+	
 </body>
 
 </html>

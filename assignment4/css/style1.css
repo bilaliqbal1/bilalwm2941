@@ -1,0 +1,20 @@
+.best_burgers_area1{padding-bottom:115px;padding-top:140px;background-size:cover;background-position:center center;background-repeat:no-repeat}
+@media(max-width:767px){.best_burgers_area1{padding-top:50px;padding-bottom:40px}}
+.best_burgers_area1 .single_delicious{margin-bottom:35px;}
+@media(max-width:767px){.best_burgers_area1 .single_delicious{display:block!important;text-align:center}}
+@media(min-width:768px) and (max-width:991px){.best_burgers_area1 .single_delicious{display:block!important}}
+.best_burgers_area1 .single_delicious .thumb{-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}
+.best_burgers_area1 .single_delicious .thumb img{-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}
+.best_burgers_area1 .single_delicious .info{padding-left:20px}
+@media(max-width:767px){.best_burgers_area1 .single_delicious .info{padding-left:0;margin-bottom:15px;margin-top:20px}}
+@media(min-width:768px) and (max-width:991px){.best_burgers_area1 .single_delicious .info{padding-left:0;margin-top:30px}}
+.best_burgers_area1 .single_delicious .info h3{font-size:30px;color:#1a0d01;font-weight:700;font-family:montserrat,sans-serif}
+.best_burgers_area1 .single_delicious .info p{font-size:16px;font-weight:400;line-height:28px;margin-top:16px;margin-bottom:6px;color:#6e6e6e;font-family:montserrat,sans-serif}
+.best_burgers_area1 .single_delicious .info span{display:block;font-weight:700;font-size:24px;color:#f0542c;font-family:montserrat,sans-serif}
+.best_burgers_area1 .iteam_links{margin-top:50px}
+@media(max-width:767px){.best_burgers_area1 .iteam_links{margin-top:20px}}.best_burgers_area1 .iteam_links a{display:block}
+
+
+
+.form-group1{margin-bottom:30px;}@media(min-width:767px){.contact-title{ margin-top: 130px; margin-left: 0px;}}
+@media(min-width:767px){.contact-title,#contactForm1{ margin-left: 80px;}}
