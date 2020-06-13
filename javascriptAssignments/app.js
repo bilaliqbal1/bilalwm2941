@@ -1,0 +1,27 @@
+
+        var a=2, b=4,c;
+        var value;
+        value = 2;
+        var number = 344;
+        number ++;
+        number += 1;
+        number --;
+        var movie = 600;
+        var cel= 24;
+        var fah = 70;
+        var price1 = 650;
+        var price2 = 100;
+        var quant1 = 3;
+        var quant2 = 7;
+        var shipping = 100;
+        t_marks = 980;
+        m_obtained = 804;
+        var n = 2;
+        var c_year = 2020;
+        var b_year = 1998;
+        var r = 20;
+        const PI = 3.142;
+        var snack = "slanty";
+        var c_age = 21;
+        var maxAge = 60;
+        var ammount = 3;
