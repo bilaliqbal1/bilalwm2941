@@ -194,13 +194,13 @@
         // document.write("The value of var1-- is " + var1-- + "<br>");
 
         // chapter 6-9 task 2
-        var a = 2, b = 1; 
-        var result = --a - --b + ++b + b--;  
-        document.write("a is " + a + "<br>");
-        document.write("b is " + b+ "<br>");
-        document.write("Result is " + result + "<br>");
+        // var a = 2, b = 1; 
+        // var result = --a - --b + ++b + b--;  
+        // document.write("a is " + a + "<br>");
+        // document.write("b is " + b+ "<br>");
+        // document.write("Result is " + result + "<br>");
         // --a; a=2 and b=1 when --a is run then a= 1  
-        // --a - --b; then 1 - 0 because of --b 
+        // --a - --b; then 1 - 0 
         //  
         // chapter 6-9 task 3
 
