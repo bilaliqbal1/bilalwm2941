@@ -114,7 +114,7 @@
         //  document.write("Total cost to buy 5 tickets to a movie is "+(movie*5)+ " PKR ");
 
         // ===== chapter 5 task 5 
-        // for (let i = 0; i < 10; i++) {
+        // for (let i = 1; i <= 10; i++) {
         //         document.write("2 * " + i + " = " + (2*i) + "<br>")            
         //     }
 
@@ -195,18 +195,123 @@
 
         // chapter 6-9 task 2
         // var a = 2, b = 1; 
-        // var result = --a - --b + ++b + b--;  
         // document.write("a is " + a + "<br>");
         // document.write("b is " + b+ "<br>");
+        // var result = --a - --b + ++b + b--;          
         // document.write("Result is " + result + "<br>");
         // --a; a=2 and b=1 when --a is run then a= 1  
-        // --a - --b; then 1 - 0 
-        //  
+        // --a - --b; then 1 - 0 = 1
+        // 1 + ++b = 3
+
         // chapter 6-9 task 3
+        // var name = prompt("enter your name:");
+        // document.write("Greetings " + name);
+        // chapter 6-9 task 5 (4 nothing) 
+        // var num = prompt("Enter any number:","5");
+        // for (let i = 1; i <= 10; i++) {
+        //        document.write(num +"  * " + i + " = " + (num*i) + "<br>")            
+        // }
+        // chapter 6-9 task 6
 
-        // chapter 6-9 task 4
+        // var sub1 = prompt("Enter first subject name:");
+        // var sub2 = prompt("Enter first subject name:");
+        // var sub3 = prompt("Enter first subject name:");
+        // var t_marks = 100;
 
-        // chapter 6-9 task 5
+        // var first_obt = +prompt("Enter " + sub1 + " marks:");
+        // var second_obt = +prompt("Enter " + sub2 + " marks:");
+        // var third_obt = +prompt("Enter " + sub3 + " marks:");
+
+        // var first = ((first_obt/t_marks)*100);
+        // var second  = ((second_obt/t_marks)*100);
+        // var third = ((third_obt/t_marks)*100);
+        // var per = (((first+second+third)/300)*100);
+        // document.write("Subjects  Total marks   Obtained marks       Percentage" +"<br>");
+        // document.write(sub1 +"&emsp;"+"&emsp;"+"&emsp;" +t_marks +"&emsp;" +"&emsp;"+"&emsp;"+"&emsp;"+ first_obt+"&emsp;"+"&emsp;"+"&emsp;"+"&emsp;"+ first+"<br>");
+        // document.write(sub2 +"&emsp;"+"&emsp;"+"&emsp;"+t_marks+"&emsp;"+"&emsp;"+"&emsp;"+"&emsp;"+ second_obt +"&emsp;"+"&emsp;"+"&emsp;"+"&emsp;"+ second+"<br>");
+        // document.write(sub3 +"&emsp;"+"&emsp;"+"&emsp;"+t_marks+"&emsp;"+"&emsp;"+"&emsp;"+"&emsp;"+ third_obt+"&emsp;"+"&emsp;"+"&emsp;"+"&emsp;"+ third+"<br>");
+        // document.write("&emsp;"+"&emsp;"+"&emsp;"+"&emsp;"+"&emsp;"+" 300"+ "&emsp;"+"&emsp;"+"&emsp;"+((+first_obt)+(+second_obt)+(+third_obt))+"&emsp;"+"&emsp;"+"&emsp;"+ per+"<br>");
+        
+        // chapter 9-11 task 1
+
+        // var city = prompt("Enter city name:");
+        // if (city === "karachi") {
+        //         alert("welcome to city of lights");
+        // } 
+        // chapter 9-11 task 2
+
+        // var gender = prompt("Enter your gender :");
+        // if (gender === "male" || gender ==="Male" || gender === "MALE") {
+        //         document.write("Good Morning sir");
+        // } 
+        // else if (gender === "female" || gender ==="Female" || gender ==="FEMALE"){
+        //         document.write("Good Morning Ma'am");
+        // }
+        // chapter 9-11 task 3
+        // var col = prompt("Enter traffic light color:");
+        // if (col == "red" || col == "Red" || col == "RED") {
+        //         document.write("Must stop");
+        // }
+        // if (col == "yellow" || col == "Yellow" || col == "YELLOW") {
+        //         document.write("Ready to move");
+        // }
+        // if (col == "green" || col == "Green" || col == "GREEN") {
+        //         document.write("Move now");
+        // } 
+        // chapter 9-11 task 4
+        // var fuel = prompt("Enter your fuel in litres:");
+        // if (fuel < 0.25) {
+        //         document.write("Please refuell your car");
+        // } else {
+        //         document.write("Fuel is okay in your car");
+        // }
+        // chapter 9-11 task 5
+        // var a = 4; if (++a === 5){ alert("given condition for variable a is true"); }
+
+        // answerr a. => given condition for variable a is true
+        //  var b = 82; if (b++ === 83){ alert("given condition for variable b is true"); } 
+ 
+        //  var c = 12; 
+        //  if (c++ === 13){ alert("condition 1 is true"); } if (c === 13){ alert("condition 2 is true"); } if (++c < 14){ alert("condition 3 is true"); } if(c === 14){ alert("condition 4 is true"); } 
+ 
+        //  var materialCost = 20000; var laborCost = 2000; var totalCost = materialCost + laborCost; if (totalCost === laborCost + materialCost){ alert("The cost equals"); } 
+ 
+        //  if (true){ alert("True"); } if (false){ alert("False"); } 
+ 
+        //  if("car" < "cat"){ alert("car is smaller than cat"); } 
+
+         // b. no output
+         // c.. condition 2 is true   condition 4 is true
+         // d.The cost equals
+         // e.. True
+         // f. car is smaller than cat
+           
+        // chapter 9-11 task 6
+        // var sub1 = +prompt("Enter your first subject obtained marks");
+        // var sub2 = +prompt("Enter your second subject obtained marks");
+        // var sub3 = +prompt("Enter your third subject obtained marks");
+        // per = (((sub1+sub2+sub3)/300)*100);
+        // document.write("<h1>Marks sheet</h1>" + "<br>");
+        // document.write("Total marks = 300"+ "<br>");
+        // document.write("Obtained marks = " + (sub1+sub2+sub3)+ "<br>");
+        // document.write("Percentage = " + per+ "<br>");
+        // if (per >= 80) {
+        //         document.write("A-one"+ "<br>");
+        //         document.write("excellent");
+        // }
+        // else if (per >= 70) {
+        //         document.write("A"+ "<br>");
+        //         document.write("Good");
+        // }
+        // else if (per >= 60) {
+        //         document.write("B"+ "<br>");
+        //         document.write("You need to improve.");
+        // }
+        // else if (per < 60) {
+        //         document.write("fail"+ "<br>");
+        //         document.write("Sorry");
+        // } 
+        // chapter 9-11 task 7
+
 
         
-                
