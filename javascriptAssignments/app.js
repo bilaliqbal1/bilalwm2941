@@ -314,4 +314,51 @@
         // chapter 9-11 task 7
 
 
-        
+        // chapter 9-11 task 8
+        // var num = prompt("enter number");
+        // if (num / 3) {
+        //         document.write("Number is divisible by");
+        // } else {
+        //         document.write("Number is not divisible by");
+        // }
+
+        // // chapter 9-11 task 11
+        // var num1 = +prompt("enter first number");
+        // var num2 = +prompt("enter second number");
+        // var ope = prompt("enter operator");
+        // if (ope == "+") {
+        //         result = num1 + num2;
+        //         document.write(result);
+        // }
+        // else if (ope == "-") {
+        //         result = num1 - num2;
+        //         document.write(result);
+        // }
+        // else if (ope == "*") {
+        //         result = num1 * num2;
+        //         document.write(result);
+        // }
+        // else if (ope == "/") {
+        //         result = num1 / num2;
+        //         document.write(result);
+        // }
+        // else if (ope == "%") {
+        //         result = num1 % num2;
+        //         document.write(result);
+        // }
+
+
+        // chapter 12-13 task 6
+        // var greeting; 
+        // var hour = 13; 
+        // if (hour < 18) { 
+        //         greeting = "Good day"; 
+        // }
+        // else{ greeting = "Good evening"; }
+
+        // chapter 12-13 task 6
+
+        // chapter 12-13 task 6
+
+
+        // chapter 12-13 task 6
