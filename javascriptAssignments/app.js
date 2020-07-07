@@ -356,9 +356,39 @@
         // }
         // else{ greeting = "Good evening"; }
 
-        // chapter 12-13 task 6
+        // chapter 12-13 task 7
 
-        // chapter 12-13 task 6
+        // var time = prompt("Enter time in 2400 hour format")
+        // if (time>=0000 && time<1200) {
+        //         document.write("Good Morning")
+        // } else if(time>=1200 && time<1700){
+        //         document.write("Good Afternoon")
+        // }else if(time>=1700 && time<2100){
+        //         document.write("Good Evening")
+        // }else if(time>=2100 && time<=2359){
+        //         document.write("Good Night")
+        // }
 
+        // chapter 14-16 task 1
+        // var name = [];
 
-        // chapter 12-13 task 6
+        // chapter 14-16 task 2
+        // var objectA = {} //This is an object literal
+        // var objectB = new Object() //This is the object constructor
+
+         // chapter 14-16 task 3
+        // var name = ["myname"];
+          // chapter 14-16 task4
+        // var num = [1];
+           // chapter 14-16 task 5
+        //    var bol = [true];
+         // chapter 14-16 task 6
+        // var mixedArrray = [1,"bilal","is student",true];
+          // chapter 14-16 task 7
+        // var Pakistan = [ "SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"]
+        // Pakistan.forEach(element => document.write(element+"<br>"));
+           // chapter 14-16 task 8
+        var names = ["ahmed","ali","bilal"]
+        var score = [320,280,390]
+        var per = (score[]/500)*100
+            // chapter 14-16 task 5
