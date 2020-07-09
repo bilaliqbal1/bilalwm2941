@@ -388,7 +388,130 @@
         // var Pakistan = [ "SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"]
         // Pakistan.forEach(element => document.write(element+"<br>"));
            // chapter 14-16 task 8
-        var names = ["ahmed","ali","bilal"]
-        var score = [320,280,390]
-        var per = (score[]/500)*100
-            // chapter 14-16 task 5
+        //  var names = ["ahmed","ali","bilal"]        
+        //   var marks =[320,230,480];
+        //   var totalMarks=500;
+        //   for (let i=0; i<names.length; i++){
+        //   document.write("Score of "+names[i]+" is "+ marks[i]+". Percentage:"+marks[i]/totalMarks*100+"<br>");
+        //   }
+        // var per = (score[]/500)*100
+            // chapter 14-16 task 9
+            // var colors = ["black","blue","white","yellow","green","red"]
+            // document.write(colors)
+
+             // chapter 14-16 task 10
+            //  var score = [320,230,480,120]
+            //  score.sort();
+            //  document.write(score)
+             // chapter 14-16 task 11
+            //  var cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"]
+            //  var selectedCities = cities.slice(2,4)
+            //  document.write(selectedCities)
+            // chapter 14-16 task 12
+            // var arr = ["This" ,  "is" ,  "my" ,  "cat"];
+            // var arr1 = arr.join()
+            // arr1.toString()
+            // document.write(arr1) 
+            // chapter 14-16 task 13
+            // var devices = ["keyboard","mouse","printer","monitor"]
+            // for (let i = 0; i < 4; i++) {
+            //   devices.shift()              
+            // } 
+            // document.write(devices)
+             // chapter 14-16 task 14
+            // var devices = ["keyboard","mouse","printer","monitor"]
+            // for (let i = 0; i < 4; i++) {
+            //   devices.pop()              
+            // } 
+            // document.write(devices)
+             // chapter 14-16 task 15
+            //  var phone = ["Apple", "Samsung", "Motorola", "Nokia", "Sony" , "Haier"]
+            // document.write("<select>")
+            //  for (let i = 0; i< phone.length; i++) {
+            //   document.write("<option>"+phone[i] +"</option>")
+             
+            // }
+            // document.write("</select>")
+            // chapter 17-20 task 1
+              //  for (let i = 0; i < 10; i++) {
+              //    for (let j = i; j < i; j++) {
+              //       document.write("hello")
+              //    }
+              //    document.write("<br>")
+              //  }
+             // chapter 17-20 task 2
+            //  var arr = [ [0,1,2,3], [1,0,1,2], [2,1,0,1] ]; 
+            //  for (let i = 0; i < arr.length; i++) {
+            //      for (let j = i; j < i; j++) {
+            //         document.write(arr[j] );
+            //      }
+            //      document.write(arr[i]);
+            //      document.write("<br>")
+            //   }
+
+              // chapter 17-20 task 3
+              // for (let i = 1; i <= 10; i++) {
+              //   document.write(i + "<br>")
+              // }
+
+               // chapter 17-20 task 4
+              // var table = +prompt("enter a number to show its muliplication table:")
+              // var num = +prompt("enter length of multiplication table:")
+              // for (let i = 1; i < num; i++) {
+              //   document.write(table + " * " + i + " = "+ (table*i) + "<br>")                
+              // }
+
+                // chapter 17-20 task 5
+                // var fruits = ["apple", "banana", "mango", "orange", "strawberry"]
+                // for (let i = 0; i < 5; i++) {
+                //   var index = fruits.indexOf(i);
+                //  document.write("Elements of index "+index+ " is " + fruits[i] + "<br>")
+                  
+                // } 
+
+                 // chapter 17-20 task 6 a
+                //  document.write("<h2>counting</h2> <br>")
+                // for (let i = 1; i < 15; i++) {
+                //   document.write(i )
+                // }
+                // chapter 17-20 task 6 b
+                //  document.write("<h2>Reversecounting</h2> <br>")
+                // for (let i = 10; i >0; i--) {
+                //   document.write(i  )
+                // }
+                // chapter 17-20 task 6 c
+                //  document.write("<h2>Even</h2> <br>")
+                // for (let i = 0; i <=20; i++) {
+                //   document.write(i%2==0)
+                // }
+                // chapter 17-20 task 6 a
+                //  document.write("<h2>Odd</h2> <br>")
+                // for (let i = 1; i < 15; i++) {
+                //   document.write(i%2!=0)
+                // }  
+                // chapter 17-20 task 6 a
+                //  document.write("<h2>Series</h2> <br>")
+                // for (let i = 0; i <=20; i++) {
+                //   document.write(i%2==0+"k")
+                // }
+
+
+                  // chapter 17-20 task 7
+                //   var bakery = ["cake", "apple pie", "cookie", "chips", "patties"]
+                //   var user = prompt("Welcome to ABC bakery. What do you want to order sir/ma'am?")
+                //  var index = bakery.indexOf(user);
+                //  document.write(user+" is available at index "+index +" in our bakery")
+        // chapter 17-20 task 8
+        // var num = [24, 53, 78, 91, 12] 
+        // var largest = Math.max(num)
+        // document.write(largest)
+        // chapter 17-20 task 9
+        // var num = [24, 53, 78, 91, 12] 
+        // var smallest = Math.min(num)
+        // document.write(smallest)
+        // chapter 17-20 task 10
+        // var num = 5;
+        // for (let i = 1; i <=20; i++) {
+        //   document.write( (num*i) + ", ")
+          
+        // }
