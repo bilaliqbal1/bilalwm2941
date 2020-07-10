@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.m-50{
+    margin-top: 200px;
+}
+#time{
+    font-family: "Arial";
+    font-size: 75px;
+    font-weight: 300;
+    width: 100%;
+}
+button{
+    width: 100px;
+    height: 45px;
+    border-radius: 50% !important;
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+}
