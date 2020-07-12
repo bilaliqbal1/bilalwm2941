@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stop Watch</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="">
     <div class="container m-50">
-        <h1 id="time" >00 : 00 : 00</h1>
-        <button id="toggle"><i class="fa fa-play"></i></button>
-        <button id="reset">Reset</button>
+        <h1 id="hour" >00</h1>
+        <h1 id="min" >:00</h1>
+        <h1 id="sec" >:00</h1><br>
+        <button id="toggle" onclick="start()">Start</button>
+        <button id="reset" onclick="reset()">Reset</button>
     </div>
     <script src="app.js"></script>
 </body>
 </html>
+<!-- <i class="fa fa-play" ></i> -->

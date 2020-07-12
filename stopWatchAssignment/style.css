@@ -6,11 +6,15 @@
 .m-50{
     margin-top: 200px;
 }
-#time{
+#min,#sec,#hour{
     font-family: "Arial";
     font-size: 75px;
     font-weight: 300;
     width: 100%;
+}
+h1{
+    display: inline;
+    padding: 5px;
 }
 button{
     width: 100px;
