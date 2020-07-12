@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,23 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="">
-    <div class="container m-50">
-        <h1 id="hour" >00</h1>
-        <h1 id="min" >:00</h1>
-        <h1 id="sec" >:00</h1><br>
-        <button id="toggle" onclick="start()">Start</button>
-        <button id="reset" onclick="reset()">Reset</button>
+
+<body>
+    <div class="container">
+        <h1>Stop watch</h1>
+        <div class="stop_watch_sec">
+            <li class="number">Hour<span id="hour">00</span></li>
+            <li class="number">Min<span id="min">00</span></li>
+            <li class="number">Sec<span id="sec">00</span></li>
+            <li class="number">Millisec<span id="minsec">00</span></li>
+        </div>
+        <div class="btn_sec">
+            <button id="toggle" onclick="start()"><i class="fa fa-play" ></i></button>
+            <button id="reset" onclick="reset()"> <i class="fa fa-circle"></i></button>
+        </div>
     </div>
+    <!-- <ul class="laps"></ul>-->
     <script src="app.js"></script>
 </body>
+
 </html>
-<!-- <i class="fa fa-play" ></i> -->
