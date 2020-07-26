@@ -7,6 +7,7 @@ var hourhead = document.getElementById("hour");
 var minhead = document.getElementById("min");
 var sechead = document.getElementById("sec");
 var minsechead = document.getElementById("minsec");
+var lapscontainer = document.getElementById()
 var interval;
 var status = "stopped"
 
@@ -57,12 +58,11 @@ function reset (){
     minsechead.innerHTML = minsec;
     document.getElementById("toggle").innerHTML="<i class='fa fa-play' ></i>";
 }
-// function lap(){
-//     if (stopwatch) {
-//         var li = document.getElementById('')
-//     }
-// }
 
-// function stop(){
-//     clearInterval(interval)
+// function lap(){
+//     if (start) {
+//         var li = document.getElementById('li');
+//         li.innerText=stopwatch();
+
+//     }
 // }

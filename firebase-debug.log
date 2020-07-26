@@ -1,0 +1,15 @@
+[debug] [2020-07-26T17:18:11.270Z] ----------------------------------------------------------------------
+[debug] [2020-07-26T17:18:11.274Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MHM\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-07-26T17:18:11.274Z] CLI Version:   8.5.0
+[debug] [2020-07-26T17:18:11.275Z] Platform:      win32
+[debug] [2020-07-26T17:18:11.275Z] Node Version:  v12.18.1
+[debug] [2020-07-26T17:18:11.276Z] Time:          Sun Jul 26 2020 22:18:11 GMT+0500 (Pakistan Standard Time)
+[debug] [2020-07-26T17:18:11.277Z] ----------------------------------------------------------------------
+[debug] [2020-07-26T17:18:11.277Z] 
+[debug] [2020-07-26T17:18:11.327Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-26T17:18:11.328Z] > authorizing via signed-in user
+[debug] [2020-07-26T17:18:11.329Z] [iam] checking project bilalwm2941 for permissions ["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2020-07-26T17:18:11.334Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-07-26T17:18:11.335Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-07-26T17:18:12.241Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 26 Jul 2020 17:18:13 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
