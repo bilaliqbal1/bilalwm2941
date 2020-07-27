@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do list</title>
-    <link res="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
-    <script src="https://kit.fontawesome.com/653b31a42d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- container-->
@@ -25,7 +24,7 @@
                 <!-- /date -->
                 <!-- clear -->
                 <div class="clear">
-                    <i class="fas fa-sync-alt" onclick="UI.clearToDo()"></i>
+                   <button onclick="clearAll()"> Delete All</button>
                 </div>
                 <!-- /clear -->
             </div>
@@ -39,8 +38,9 @@
         <!-- /content -->
         <!-- addToDo -->
         <div class="addToDo">
-            <i class="fas fa-plus-circle co"></i>
-            <input type="text" id="input" placeholder="Add What You Want to Do?">
+            <i class="fa fa-plus-circle co"></i>
+            <input type="text"  id="input" placeholder="Add What You Want to Do?">
+            <button onclick="toDo()">Add Task</button>
         </div>
         <!-- /addToDo -->
     </div>

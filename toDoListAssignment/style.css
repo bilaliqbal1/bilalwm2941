@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: rgba(0,0,0,0.1);
-    font-family: 'Titillium Web', sans-serif;
+    font-family:  sans-serif;
     font-size: 15px;
     background-image: url(image.jpg);
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ body{
 
 .container{
     display: table;
-    max-width: 350px;
+    max-width: 400px;
     width: 100%;
     margin: 10% auto 0;
     background-color: #fff;
@@ -86,7 +86,7 @@ body{
 
 .addToDo input{
     margin: 0 0 0 7px;
-    width: 100%;
+    width: 75%;
     font-size: 15px;
     border: 0;
 }
@@ -104,4 +104,13 @@ body{
 .fa-sync-alt:hover{
     cursor: pointer;
     text-shadow: 0 0 3px #4e4a4a;
+}
+.clear :hover{
+    cursor: pointer;
+}
+.btn{
+    color: red;
+}
+.btn2{
+    color: rgb(18, 18, 201);
 }
