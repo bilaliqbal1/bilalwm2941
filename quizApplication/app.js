@@ -22,5 +22,27 @@ function showQuestion(questionIndex){
     option4.textContent = q.option4;
 }
 function nextQuestion(){
-    var selectQuestion = document.querySelector("input[type]")
+    var selectOption = document.querySelector("input[type=radio]:checked");
+    if (!selectOption) {
+        alert("Please select your answer");
+        return;
+    }
+    var answer = selectOption.value;
+    if (questions[currentQuestion].answer == answer) {
+        score+=10;
+    }
+    selectOption.checked=false;
+    currentQuestion++;
+    if (currentQuestion == totalQuestion - 1) {
+        nextButton.textContent = "Finish";
+    }
+    if (currentQuestion == totalQuestion) {
+        container.style.display = "none";
+        result.style.display = " ";
+        result.textContent = "Your Score: " + score;
+        return;
+    }
+    showQuestion(currentQuestion);
+
 }
+showQuestion(currentQuestion);
