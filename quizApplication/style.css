@@ -15,6 +15,18 @@ body{
     border: 1px solid black;
     box-shadow: 0 0 8px 3px #fff;
 }
+.main{
+    height: 200px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: rgb(163, 32, 32);
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 0 0 8px 3px #fff;
+}
 .title{
     padding-top: 20px;
     text-align: center;
@@ -44,6 +56,10 @@ body{
     background: #140ec4;
     color: blanchedalmond;
 }
+.active{
+    background: #140ec4;
+    color: blanchedalmond;
+}
 .next-btn{
     border: none;
     outline: none;
@@ -55,7 +71,29 @@ body{
     float: right;
     margin: 10px;
 }
-.next-btn:hover{
+.tryagain{
+    border: none;
+    outline: none;
+    background: rgb(206, 131, 131);
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+a:hover{
+    color: blanchedalmond;
+}
+.next-btn:hover .tryagain:hover{
+     background: #140ec4;
+     color: blanchedalmond;
+}
+.tryagain:hover{
      background: #140ec4;
      color: blanchedalmond;
 }

@@ -37,10 +37,11 @@ function nextQuestion(){
         nextButton.textContent = "Finish";
     }
     if (currentQuestion == totalQuestion) {
-        container.style.display = "none";
-        result.style.display = " ";
-        result.textContent = "Your Score: " + score;
-        return;
+        // container.style.display = "none";
+        // result.style.display = " ";
+        // result.textContent = "Your Score: " + score;
+        // return;
+        alert(score)
     }
     showQuestion(currentQuestion);
 

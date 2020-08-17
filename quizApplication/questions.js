@@ -1,34 +1,52 @@
 var questions = [
     {
-        question:"what is computer?",
+        question:"Q1. what is computer?",
         answer : "Data Processing Device",
-        option1 : "electronic machine",
-        option2 :   "Data Processing Device",
-        option3 :   "machine",
-        option4 :  "device",        
+        option : [
+            "electronic machine",
+            "Data Processing Device",
+           "machine",
+            "device",]        
     },
     {
-        question:"what is computer?",
-        answer : "Data Processing Device",
-        option1 : "electronic machine",
-        option2 :   "Data Processing Device",
-        option3 :   "machine",
-        option4 :  "device",        
+        question: "Q2. What does HTML stand for?",
+        answer: "HyperText Markup Language",
+        options: [
+            "HyperText Markup Language",
+            "HyperText makeup Language",
+            "HighText Markup Language",
+            "none of the above",
+        ]
     },
     {
-        question:"what is computer?",
-        answer : "Data Processing Device",
-        option1 : "electronic machine",
-        option2 :   "Data Processing Device",
-        option3 :   "machine",
-        option4 :  "device",        
+        question: "Q3. Where in an HTML document is the correct place to refer script tag ?",
+        answer: "Before Body Closing Tag",
+        options: [
+            "In the head section",
+            "Before Body Closing Tag",
+            "At the end of the document",
+            "After Body Closing Tag",
+        ]
     },
     {
-        question:"what is computer?",
-        answer : "Data Processing Device",
-        option1 : "electronic machine",
-        option2 :   "Data Processing Device",
-        option3 :   "machine",
-        option4 :  "device",        
-    }
+        question: "Q4. Which property is used to change the background color?",
+        answer: "background-color",
+        options: [
+            "color",
+            "bg-color",
+            "background-color",
+            "back color",
+        ]
+    },
+    {
+        question: "Q5. JavaScript is a ",
+        answer: "Client Side Scripting Language",
+        options: [
+            "Sever Side Scripting Language",
+            "Client Side Scripting Language",
+            "Markup Language",
+            "Programming Language",
+        ]
+    },
+    
 ]
