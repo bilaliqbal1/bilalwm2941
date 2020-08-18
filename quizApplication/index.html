@@ -6,9 +6,9 @@
     <title>Quiz Application</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="showQuestion(0)">
+<body onload="showQuestion(0), startTime()">
     <div id="quizContainer" class="container">
-        <div class="title">Welcome To Quiz</div>
+        <div class="title">Welcome To Quiz <div class="time" id="timer">01:00</div></div>
         <div id="question" class="question"></div>
         <label class="option" onclick="activeclass(this)"><input type="radio" name="option" value="1"><span id="option"></span> </label>
         <label class="option" onclick="activeclass(this)"><input type="radio" name="option" value="2"><span id="option"></span> </label>

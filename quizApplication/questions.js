@@ -6,12 +6,13 @@ var questions = [
             "electronic machine",
             "Data Processing Device",
            "machine",
-            "device",]        
+            "device"
+        ]        
     },
     {
         question: "Q2. What does HTML stand for?",
         answer: "HyperText Markup Language",
-        options: [
+        option: [
             "HyperText Markup Language",
             "HyperText makeup Language",
             "HighText Markup Language",
@@ -21,7 +22,7 @@ var questions = [
     {
         question: "Q3. Where in an HTML document is the correct place to refer script tag ?",
         answer: "Before Body Closing Tag",
-        options: [
+        option: [
             "In the head section",
             "Before Body Closing Tag",
             "At the end of the document",
@@ -31,7 +32,7 @@ var questions = [
     {
         question: "Q4. Which property is used to change the background color?",
         answer: "background-color",
-        options: [
+        option: [
             "color",
             "bg-color",
             "background-color",
@@ -41,7 +42,7 @@ var questions = [
     {
         question: "Q5. JavaScript is a ",
         answer: "Client Side Scripting Language",
-        options: [
+        option: [
             "Sever Side Scripting Language",
             "Client Side Scripting Language",
             "Markup Language",

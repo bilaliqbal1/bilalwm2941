@@ -1,4 +1,30 @@
 
+function startTime(){
+    var startMinutes = 1.5;
+    var time = startMinutes * 60;
+    var timer = document.getElementById("timer");
+
+    function updateCountDown(){
+        var minutes = Math.floor(time / 60)
+        var seconds = time % 60;
+        
+        if(seconds < 10){
+            seconds = "0"+seconds;
+        }
+        if(minutes < 10){
+            minutes = "0"+minutes;
+        }
+        
+        timer.innerHTML = minutes + ":" + seconds;
+        time--;
+
+        if(minutes == 00 && seconds == 00){
+            alert("Oopps!! Time Up");
+            window.location.href = "result.html";
+        }
+    }
+    setInterval(updateCountDown, 1000);
+}
 
 function showQuestion(e) {
     
@@ -19,6 +45,7 @@ function showQuestion(e) {
 var currentQuestion = "";
 var score = 0;
 var countQuestion = 0;
+var totalQuestion = questions.length;
 function nextQuestion(){
     var selectOption = document.querySelector("input[type=radio]:checked");
     if (!selectOption) {
@@ -31,6 +58,9 @@ function nextQuestion(){
     countQuestion++;
     if(countQuestion <= questions.length-1){
             showQuestion(countQuestion);
+    }
+    if (countQuestion == totalQuestion - 1) {
+        nextButton.textContent = "Finish";
     }
 
     removeactiveclass();
@@ -55,11 +85,10 @@ function removeactiveclass(){
     }
 }
 
-
 function checkAnswer(x){
     var active = document.getElementsByClassName("active");
     if(active[0].innerHTML == questions[x].answer){
-        score += 10;
+        score = score + 10;
         console.log(score)
     }
 }   
@@ -75,6 +104,6 @@ function setResult(){
 
 function showResult(){
     var cs = sessionStorage.getItem("userscore");
-    result.innerHTML = "You score is "+ cs +" out of 50";
+    result.innerHTML = "You correct answer are "+ cs +" out of 5";
 
 }

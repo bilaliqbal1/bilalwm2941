@@ -107,3 +107,8 @@ a:hover{
     background: #140ec4;
     color: #000;
 }
+.time{
+    display: inline;
+    float: right;
+    color: black;
+}
