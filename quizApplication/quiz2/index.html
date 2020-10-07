@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showQuestion(0),">
+    <div id="quizContainer" class="container">
+        <div class="title">Welcome To Quiz <div class="time" id="timer">01:00</div></div>
+        <div id="question" class="question"></div>
+        <!-- <label class="option" onclick="activeclass(this)"><input type="radio" name="option" value="1"><span id="option"></span> </label> -->
+        <button  class="option" onclick="activeclass(this)"><span></span></button>
+        <label class="option" onclick="activeclass(this)"><input type="radio" name="option" value="2"><span id="option"></span> </label>
+        <label class="option" onclick="activeclass(this)"><input type="radio" name="option" value="3"><span id="option"></span> </label>
+        <label class="option" onclick="activeclass(this)"><input type="radio" name="option" value="4"><span id="option"></span> </label>
+        <button id="nextButton" class="next-btn" onclick="nextQuestion();">Next Question</button>
+    </div>
+    <script src="questions.js"></script>
+    <script src="app2.js"></script>    
+</body>
+</html>
